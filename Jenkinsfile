@@ -6,7 +6,7 @@ maven 'Maven3'
 stages {
 stage('CHECKOUT') {
 steps {
-git ''
+git 'https://github.com/sharadhi27/devops_lab.git'
 }
 }
 stage('Build') {
